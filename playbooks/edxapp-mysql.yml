@@ -1,0 +1,8 @@
+- name: Install MySQL
+  hosts: all
+  gather_facts: no
+  become: True
+  roles:
+    - mysql
+
+
