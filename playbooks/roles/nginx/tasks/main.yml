@@ -9,7 +9,7 @@
     creates: "{{ NGINX_DH_PARAMS_PATH }}"
   tags:
     - install
-    - install:configuration
+      - install:configuration
 
 - name: Restrict permissions of DH parameters file
   file:
